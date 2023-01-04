@@ -1,0 +1,72 @@
+
+
+.project-list{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 19px 11px 12px -7px rgba(0,0,0,0.51);
+	-webkit-box-shadow: 19px 11px 12px -7px rgba(0,0,0,0.51);
+	-moz-box-shadow: 19px 11px 12px -7px rgba(0,0,0,0.51);
+	cursor: pointer;
+}
+
+.show-project-list-opened{
+	border-left: 5px solid #303841;
+}
+
+.project-list:hover{
+	border-left: 5px solid #303841;
+	transition-duration: .5s;
+}
+
+
+.title-and-collapse-option{
+	display: flex;
+	justify-content: space-between;
+	margin: 5px;
+}
+
+.tech-used-in-project{
+	margin: 5px;
+}
+
+.tech-used-in-project p{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: tomato;
+	color: white;
+	border-radius: 90px;
+	padding: 8px;
+	text-align: center;
+}
+
+.tech-used-in-project p:hover{
+	background-color: #303841;
+	transition: 1s;
+}
+
+.live-demo-button{
+	margin: 5px;
+	background-color: #F79828;
+	border-radius: 90px;
+	width: fit-content;
+	padding: 8px 10px 8px 10px;
+}
+
+.live-demo-button:hover{
+	background-color: #303841;
+	padding: 10px 10px 10px 10px;
+	transition-duration: 0.5s;
+}
+
+.live-demo-button a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-decription{
+	margin: 5px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
