@@ -46,7 +46,7 @@ const Education = () => {
 						  <h3 className="vertical-timeline-element-title text-white title-description">{item.name}</h3>
 						  <h5 className="vertical-timeline-element-subtitle text-white">{item.degree}</h5>
 
-						  <p className="text-white text-white">
+						  <p className="text-white">
 						    {item.description}
 						  </p>
 						</VerticalTimelineElement>
